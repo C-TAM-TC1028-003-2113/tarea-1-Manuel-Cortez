@@ -8,7 +8,7 @@ def main():
    descuento= 9.46875
    saldofinal= (saldomes-cheque)+(ingresos-egresos)
    saldomes= saldofinal-descuento
- print("Dame el saldo final del mes:",saldomes)
+   print("El saldo del mes final es:",saldomes)
 
 if __name__ == '__main__':
     main()
